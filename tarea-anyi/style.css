@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/star.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 600px;
+    height: 700px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: aquamarine 2px 0 2px;
+  }
+  
+
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d3d1d199;
+  }
+  input::placeholder{
+    color: #0056b3;
+}
+  .opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .opciones div{
+   color: white;
+   }
+  .btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 2px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  span {
+    color: white;
+    margin-bottom: 5px;
+  }
